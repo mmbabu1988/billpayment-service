@@ -1,0 +1,9 @@
+pipeline {
+agent any {
+stages {
+stage ("gt scm") {
+sh "mvn clean"
+}
+}
+}
+}
